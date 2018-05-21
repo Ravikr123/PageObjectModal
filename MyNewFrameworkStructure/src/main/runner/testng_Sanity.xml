@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+
+	
+
+
+  <test  name="MyTest">
+    <classes>
+      <class name="com.test.sony.TestCases.TC001_LoginPageClassTest"/>
+      <class name="com.test.sony.TestCases.TC002_HomePageClassTest"/>
+      <!-- <class name="com.test.sony.TestCases.TC003_ContactsPageClassTest"/> -->
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MySuite]">
+  <test name="MyTest(failed)">
+    <classes>
+      <class name="com.test.sony.TestCases.TC001_LoginPageClassTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.test.sony.TestCases.TC001_LoginPageClassTest -->
+      <class name="com.test.sony.TestCases.TC002_HomePageClassTest">
+        <methods>
+          <include name="verifyContactsLinkTest"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUP"/>
+          <include name="verifyhomePageUserTest"/>
+        </methods>
+      </class> <!-- com.test.sony.TestCases.TC002_HomePageClassTest -->
+    </classes>
+  </test> <!-- MyTest(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
